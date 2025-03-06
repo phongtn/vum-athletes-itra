@@ -273,6 +273,19 @@
     }
   ],
   [
+    "Lê Tấn Hi",
+    {
+      "bib": "7181",
+      "age": 34,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 582,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
     "Adrian Lim",
     {
       "bib": "7044",
@@ -2492,19 +2505,6 @@
       "club": "LBRY Sports",
       "pi": 0,
       "flag": "https://itra.run/images/CountryFlags/ph.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Lê Tấn Hi",
-    {
-      "bib": "7181",
-      "age": 34,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 0,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
       "profile": "https://itra.run/images/member-pics/default.jpg"
     }
   ],
