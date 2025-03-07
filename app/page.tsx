@@ -24,6 +24,7 @@ interface Runner {
 
 export default function Home() {
   const [filters, setFilters] = useState<FilterOptions>({
+    distance: "75k", // Default to 75k
     gender: null,
     nationality: null,
     category: null,
@@ -48,12 +49,17 @@ export default function Home() {
     return `${categoryPrefix}${gender}`
   }, [])
 
-  // Fetch runners data once on component mount
+  // Fetch runners data when distance changes
   useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true)
-        const response = await fetch("/api/runners")
+        const response = await fetch(`/api/runners/${filters.distance}`)
+
+        if (!response.ok) {
+          throw new Error(`Error fetching data: ${response.statusText}`)
+        }
+
         const data = await response.json()
 
         // Store the runners data
@@ -61,13 +67,13 @@ export default function Home() {
 
         // Extract unique nationalities
         const uniqueNationalities = Array.from(new Set(data.map((runner: Runner) => runner[1].nationality)))
-          .filter(Boolean)
-          .sort() as string[]
+            .filter(Boolean)
+            .sort() as string[]
 
         // Extract unique categories
         const uniqueCategories = Array.from(new Set(data.map((runner: Runner) => getCategoryFromRunner(runner))))
-          .filter(Boolean)
-          .sort() as string[]
+            .filter(Boolean)
+            .sort() as string[]
 
         setNationalities(uniqueNationalities)
         setCategories(uniqueCategories)
@@ -79,7 +85,7 @@ export default function Home() {
     }
 
     fetchData()
-  }, [getCategoryFromRunner]) // Add getCategoryFromRunner to dependencies
+  }, [getCategoryFromRunner, filters.distance]) // Use filters.distance as dependency
 
   const handleFilterChange = (newFilters: FilterOptions) => {
     setFilters(newFilters)
@@ -90,33 +96,36 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 flex flex-col">
-      <header className="bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-4 sm:py-6">
-          <h1 className="text-xl sm:text-2xl font-bold text-gray-900">VUM athletes with ITRA points</h1>
-          <p className="text-sm sm:text-base text-gray-600">Explore runner data and performance metrics</p>
+      <main className="min-h-screen bg-gray-50 flex flex-col">
+        <header className="bg-white shadow-sm">
+          <div className="container mx-auto px-4 py-4 sm:py-6">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900">VUM athletes with ITRA points</h1>
+            <p className="text-sm sm:text-base text-gray-600">Explore runner data and performance metrics</p>
+          </div>
+        </header>
+
+        <div className="container mx-auto px-1 sm:px-4 py-4 sm:py-6 flex-grow">
+          <FilterBar
+              onFilterChange={handleFilterChange}
+              onSearchChange={handleSearchChange}
+              searchQuery={searchQuery}
+              nationalities={nationalities}
+              categories={categories}
+              selectedDistance={filters.distance}
+          />
+
+          <RunnersTable
+              runners={runners}
+              filters={filters}
+              searchQuery={searchQuery}
+              getCategoryFromRunner={getCategoryFromRunner}
+              loading={loading}
+              selectedDistance={filters.distance}
+          />
         </div>
-      </header>
 
-      <div className="container mx-auto px-1 sm:px-4 py-4 sm:py-6 flex-grow">
-        <FilterBar
-          onFilterChange={handleFilterChange}
-          onSearchChange={handleSearchChange}
-          searchQuery={searchQuery}
-          nationalities={nationalities}
-          categories={categories}
-        />
-        <RunnersTable
-          runners={runners}
-          filters={filters}
-          searchQuery={searchQuery}
-          getCategoryFromRunner={getCategoryFromRunner}
-          loading={loading}
-        />
-      </div>
-
-      <Footer />
-    </main>
+        <Footer />
+      </main>
   )
 }
 
