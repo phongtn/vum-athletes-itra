@@ -9,7 +9,7 @@
       "club": "adidas TERREX",
       "pi": 844,
       "flag": "https://itra.run/images/CountryFlags/de.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
+      "profile": "https://res.cloudinary.com/utmb-world/image/upload/q_auto/f_auto/c_fill,g_auto/if_w_gt_1920/c_scale,w_1920/if_end/v1/worldseries/Members/0169184e-9f87-4058-a4da-05b8b7438841?_a=ATADJAA0"
     }
   ],
   [
@@ -169,19 +169,6 @@
     }
   ],
   [
-    "Nguyen Thanh Chi",
-    {
-      "bib": "5073",
-      "age": 38,
-      "nationality": "Viet Nam",
-      "gender": "F",
-      "club": "Vietnam Ultra Trail",
-      "pi": 582,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
     "Vu Tien Viet Dung",
     {
       "bib": "5238",
@@ -218,58 +205,6 @@
       "pi": 578,
       "flag": "https://itra.run/images/CountryFlags/cn.svg",
       "profile": "https://itra.run/Files/Photos/140ff178cdf443cd9776352d6a88b152.jpg"
-    }
-  ],
-  [
-    "Ngọc Anh Thái",
-    {
-      "bib": "5182",
-      "age": 34,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 553,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Nguyễn Văn Hợp",
-    {
-      "bib": "5184",
-      "age": 38,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 547,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Nguyễn Văn Sóng",
-    {
-      "bib": "5185",
-      "age": 38,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 547,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Nguyễn Văn Năng",
-    {
-      "bib": "5207",
-      "age": 41,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "Xóm Nghèo",
-      "pi": 547,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
     }
   ],
   [
@@ -377,19 +312,6 @@
     }
   ],
   [
-    "Nguyễn Nam",
-    {
-      "bib": "5051",
-      "age": 43,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 515,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
     "Nguyen Nam Hai",
     {
       "bib": "5149",
@@ -475,6 +397,19 @@
       "nationality": "Viet Nam",
       "gender": "M",
       "club": "86LTK trail runners club",
+      "pi": 498,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyễn Nam",
+    {
+      "bib": "5051",
+      "age": 43,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
       "pi": 498,
       "flag": "https://itra.run/images/CountryFlags/vn.svg",
       "profile": "https://itra.run/images/member-pics/default.jpg"
@@ -3205,6 +3140,71 @@
       "nationality": "Viet Nam",
       "gender": "M",
       "club": "Hongngoc Runner",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyen Thanh Chi",
+    {
+      "bib": "5073",
+      "age": 38,
+      "nationality": "Viet Nam",
+      "gender": "F",
+      "club": "Vietnam Ultra Trail",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Ngọc Anh Thái",
+    {
+      "bib": "5182",
+      "age": 34,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyễn Văn Hợp",
+    {
+      "bib": "5184",
+      "age": 38,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyễn Văn Sóng",
+    {
+      "bib": "5185",
+      "age": 38,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyễn Văn Năng",
+    {
+      "bib": "5207",
+      "age": 41,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "Xóm Nghèo",
       "pi": 0,
       "flag": "https://itra.run/images/CountryFlags/vn.svg",
       "profile": "https://itra.run/images/member-pics/default.jpg"
