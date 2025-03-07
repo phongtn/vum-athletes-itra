@@ -104,71 +104,6 @@
     }
   ],
   [
-    "Nguyễn Tuấn Anh",
-    {
-      "bib": "5164",
-      "age": 32,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "Hongngoc Runner",
-      "pi": 652,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Nguyen Tuan Hoang",
-    {
-      "bib": "5233",
-      "age": 35,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "BOSSCAR",
-      "pi": 652,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Tuan Dau",
-    {
-      "bib": "5140",
-      "age": 48,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 641,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Phạm Đức Huy",
-    {
-      "bib": "5166",
-      "age": 27,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "Hongngoc Runner",
-      "pi": 639,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
-    "Bùi Văn Lượng",
-    {
-      "bib": "5130",
-      "age": 39,
-      "nationality": "Viet Nam",
-      "gender": "M",
-      "club": "None",
-      "pi": 618,
-      "flag": "https://itra.run/images/CountryFlags/vn.svg",
-      "profile": "https://itra.run/images/member-pics/default.jpg"
-    }
-  ],
-  [
     "Lồ A Dao",
     {
       "bib": "5221",
@@ -1456,6 +1391,19 @@
     }
   ],
   [
+    "Bùi Văn Lượng",
+    {
+      "bib": "5130",
+      "age": 39,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 342,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
     "Hoàng Xuân Hưng",
     {
       "bib": "5162",
@@ -1620,6 +1568,19 @@
       "gender": "F",
       "club": "Run4Buca",
       "pi": 323,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Tuan Dau",
+    {
+      "bib": "5140",
+      "age": 48,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "None",
+      "pi": 320,
       "flag": "https://itra.run/images/CountryFlags/vn.svg",
       "profile": "https://itra.run/images/member-pics/default.jpg"
     }
@@ -3207,6 +3168,45 @@
       "club": "None",
       "pi": 0,
       "flag": "https://itra.run/images/CountryFlags/be.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyễn Tuấn Anh",
+    {
+      "bib": "5164",
+      "age": 32,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "Hongngoc Runner",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Nguyen Tuan Hoang",
+    {
+      "bib": "5233",
+      "age": 35,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "BOSSCAR",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
+      "profile": "https://itra.run/images/member-pics/default.jpg"
+    }
+  ],
+  [
+    "Phạm Đức Huy",
+    {
+      "bib": "5166",
+      "age": 27,
+      "nationality": "Viet Nam",
+      "gender": "M",
+      "club": "Hongngoc Runner",
+      "pi": 0,
+      "flag": "https://itra.run/images/CountryFlags/vn.svg",
       "profile": "https://itra.run/images/member-pics/default.jpg"
     }
   ]
